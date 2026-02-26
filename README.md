@@ -9,6 +9,6 @@ this is how I get *italic*\
 this is how I get **bold** 
 this is an image: this one
 
-![](Comparison Energy Harry Styles.png)
+![](Comparison_Energy_Harry_Styles.png)
 
 
