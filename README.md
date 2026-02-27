@@ -1,13 +1,5 @@
 # computational-1
-this is markdown. I am just writing text.
-
-##this is heading
-
-### this is sub-heading
-
-this is how I get *italic*\
-this is how I get **bold** 
-this is an image: this one
+This is all I've made for now because I wanted to practice with Rstudio and Github! 
 
 ![](Comparison_Energy_Harry_Styles.png)
 
