@@ -15,7 +15,7 @@ editor: visual
 
 ![](Novelty curve MMITHW.png)
 
-### blablabla interpretatie
+### blablabla interpretatie aanpassing
 
 ## Quarto
 
