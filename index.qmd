@@ -99,7 +99,7 @@ In the cepstrogram of Aperture , you can see that the greatest change in color i
 
 **Self-Similarity Matrix Aperture**
 
-![](images/SSM Aperture.png){width="669"}
+![](images/SSM Aperture-01.png)
 
 ## Column
 
