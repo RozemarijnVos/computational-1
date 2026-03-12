@@ -7,33 +7,106 @@ format:
 editor: visual
 ---
 
-# pagina 1
+# Description corpus
 
-## column
+## Column (width = 30%)
 
-### row
+work in progress
+
+# Key and chord estimation
+
+## Column
+
+**Visualisation**
+
+### Row
+
+**Novelty curve Meet me in the hallway**
 
 ![](Novelty curve MMITHW.png)
 
-### blablabla interpretatie aanpassing
+## Column
 
-## Quarto
+### Row
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+**Interpretation**
 
-## Running Code
+work in progress
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+# Chroma Features
 
-```{r}
-1 + 1
-```
+## Column
 
-You can add options to executable code like this
+**Visualisation**
 
-```{r}
-#| echo: false
-2 * 2
-```
+### Row
 
-The `echo: false` option disables the printing of code (only output is displayed).
+**Chromagram Golden**
+
+![](Golden_Chromagram.png)
+
+**Chromagram Meet me in the hallway**
+
+![](MMITHW_Chromagram.png)
+
+## Column
+
+### Row
+
+**Interpretation**
+
+### Row 
+
+*Golden*
+
+In this chromagram of Golden, you can clearly see two patterns alternating. The song begins with a C major (C-E-G) chord, starting at t=0 until t=5. Then, you see the D-F#-A notes light up, which could indicate a D major chord (D-F#-A). This pattern alternates throughout the entire song.
+
+### Row 
+
+*Meet me in the hallway*
+
+In the chromagram of Meet me in the hallway you can see the notes A-C#-E light up which could mean the song is in Amajor.
+
+# Cepstrogram 
+
+## Column
+
+**Visualisation**
+
+### Row
+
+**Cepstrogram Aperture**
+
+![](images/Cepstrogram Aperture.png)
+
+## Column
+
+### Row
+
+**Interpretation**
+
+*Aperture*
+
+In the cepstrogram of Aperture , you can see that the greatest change in color is in mfcc_02. From t=0 until t=350, the color of mfcc_02 also changes, indicating a change in magnitude. This shows that the timbre changes throughout the song as the instruments or vocals change. This is consistent with listening to the song, as the magnitude changes as the vocals are added.
+
+# Self-Similarity Matrix
+
+## Column
+
+**Visualisation**
+
+### Row
+
+**Self-Similarity Matrix Aperture**
+
+![](images/SSM Aperture.png){width="669"}
+
+## Column
+
+### Row
+
+**Interpretation**
+
+*Aperture*
+
+This SSM shows that the beginning and end of the song have a very different timbre than the rest of the song. For example, from t=0 until t=100 and at t=280 until t=300, a much darker area can be found than in the rest of the song. This is consistent with the song's long intro with a repetitive beat that changes little until the vocals join in at t=100.
