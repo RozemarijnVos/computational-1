@@ -121,9 +121,7 @@ This SSM shows that the beginning and end of the song have a very different timb
 
 **Tempogram Aperture**
 
-![](Tempogram%20Aperture.png)
-
-## Column
+## ![](Tempogram_Aperture.png)Column
 
 ### Row
 
@@ -143,9 +141,7 @@ In this tempogram of Aperture
 
 **Beats in Aperture**
 
-![](Novelty%20Aperture.png)
-
-## Column
+## ![](Novelty_Aperture.png)Column
 
 ### Row
 
