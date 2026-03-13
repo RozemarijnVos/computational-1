@@ -110,3 +110,43 @@ In the cepstrogram of Aperture , you can see that the greatest change in color i
 *Aperture*
 
 This SSM shows that the beginning and end of the song have a very different timbre than the rest of the song. For example, from t=0 until t=100 and at t=280 until t=300, a much darker area can be found than in the rest of the song. This is consistent with the song's long intro with a repetitive beat that changes little until the vocals join in at t=100.
+
+# Tempo Analysis
+
+## Column
+
+**Visualisation**
+
+### Row
+
+**Tempogram Aperture**
+
+![](Tempogram Aperture.png)
+
+## Column
+
+### Row
+
+**Interpretation**
+
+*Aperture*
+
+# Beat Analysis
+
+## Column
+
+**Visualisation**
+
+### Row
+
+**Beats in Aperture**
+
+![](Novelty Aperture.png)
+
+## Column
+
+### Row
+
+**Interpretation**
+
+*Aperture*

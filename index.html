@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
         <div class="navbar-author">Rozemarijn Vos</div>
       </div>
     </div>
-<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-description-corpus" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#description-corpus" data-scrolling="false" href="#description-corpus" aria-controls="description-corpus" aria-selected="true"><span class="nav-link-text">Description corpus</span></a></li><li class="nav-item" role="presentation"><a id="tab-key-and-chord-estimation" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#key-and-chord-estimation" data-scrolling="false" href="#key-and-chord-estimation" aria-controls="key-and-chord-estimation" aria-selected="false"><span class="nav-link-text">Key and chord estimation</span></a></li><li class="nav-item" role="presentation"><a id="tab-chroma-features" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#chroma-features" data-scrolling="false" href="#chroma-features" aria-controls="chroma-features" aria-selected="false"><span class="nav-link-text">Chroma Features</span></a></li><li class="nav-item" role="presentation"><a id="tab-cepstrogram" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#cepstrogram" data-scrolling="false" href="#cepstrogram" aria-controls="cepstrogram" aria-selected="false"><span class="nav-link-text">Cepstrogram</span></a></li><li class="nav-item" role="presentation"><a id="tab-self-similarity-matrix" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#self-similarity-matrix" data-scrolling="false" href="#self-similarity-matrix" aria-controls="self-similarity-matrix" aria-selected="false"><span class="nav-link-text">Self-Similarity Matrix</span></a></li></ul></div></div>
+<div id="dashboard-collapse" class="navbar-collapse collapse"><ul class="navbar-nav navbar-nav-scroll me-auto" role="tablist"><li class="nav-item" role="presentation"><a id="tab-description-corpus" class="nav-link active" data-bs-toggle="tab" role="tab" data-bs-target="#description-corpus" data-scrolling="false" href="#description-corpus" aria-controls="description-corpus" aria-selected="true"><span class="nav-link-text">Description corpus</span></a></li><li class="nav-item" role="presentation"><a id="tab-key-and-chord-estimation" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#key-and-chord-estimation" data-scrolling="false" href="#key-and-chord-estimation" aria-controls="key-and-chord-estimation" aria-selected="false"><span class="nav-link-text">Key and chord estimation</span></a></li><li class="nav-item" role="presentation"><a id="tab-chroma-features" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#chroma-features" data-scrolling="false" href="#chroma-features" aria-controls="chroma-features" aria-selected="false"><span class="nav-link-text">Chroma Features</span></a></li><li class="nav-item" role="presentation"><a id="tab-cepstrogram" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#cepstrogram" data-scrolling="false" href="#cepstrogram" aria-controls="cepstrogram" aria-selected="false"><span class="nav-link-text">Cepstrogram</span></a></li><li class="nav-item" role="presentation"><a id="tab-self-similarity-matrix" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#self-similarity-matrix" data-scrolling="false" href="#self-similarity-matrix" aria-controls="self-similarity-matrix" aria-selected="false"><span class="nav-link-text">Self-Similarity Matrix</span></a></li><li class="nav-item" role="presentation"><a id="tab-tempo-analysis" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#tempo-analysis" data-scrolling="false" href="#tempo-analysis" aria-controls="tempo-analysis" aria-selected="false"><span class="nav-link-text">Tempo Analysis</span></a></li><li class="nav-item" role="presentation"><a id="tab-beat-analysis" class="nav-link" data-bs-toggle="tab" role="tab" data-bs-target="#beat-analysis" data-scrolling="false" href="#beat-analysis" aria-controls="beat-analysis" aria-selected="false"><span class="nav-link-text">Beat Analysis</span></a></li></ul></div></div>
 </nav>
 </header>
 <div class="page-layout-custom quarto-dashboard-content bslib-gap-spacing html-fill-container bslib-page-fill quarto-dashboard-pages">  
@@ -295,6 +295,96 @@ grid-auto-rows: minmax(0, 1fr);">
 <strong>Interpretation</strong>
 <em>Aperture</em>
 <p>This SSM shows that the beginning and end of the song have a very different timbre than the rest of the song. For example, from t=0 until t=100 and at t=280 until t=300, a much darker area can be found than in the rest of the song. This is consistent with the song’s long intro with a repetitive beat that changes little until the vocals join in at t=100.</p>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+</div><div id="tempo-analysis" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-tempo-analysis">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Visualisation</strong>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Tempogram Aperture</strong>
+<img src="Tempogram%20Aperture.png" class="img-fluid">
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Interpretation</strong>
+<em>Aperture</em>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div>
+</div>
+</div><div id="beat-analysis" class="dashboard-page tab-pane grid-skip html-fill-item html-fill-container" data-orientation="columns" aria-labelledby="tab-beat-analysis">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr) minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content) minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Visualisation</strong>
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Beats in Aperture</strong>
+<img src="Novelty%20Aperture.png" class="img-fluid">
+</div>
+<bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
+    <template>Expand</template>
+    <span class="bslib-full-screen-enter badge rounded-pill">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" style="height:1em;width:1em;" aria-hidden="true" role="img"><path d="M20 5C20 4.4 19.6 4 19 4H13C12.4 4 12 3.6 12 3C12 2.4 12.4 2 13 2H21C21.6 2 22 2.4 22 3V11C22 11.6 21.6 12 21 12C20.4 12 20 11.6 20 11V5ZM4 19C4 19.6 4.4 20 5 20H11C11.6 20 12 20.4 12 21C12 21.6 11.6 22 11 22H3C2.4 22 2 21.6 2 21V13C2 12.4 2.4 12 3 12C3.6 12 4 12.4 4 13V19Z"></path></svg>
+    </span>
+</bslib-tooltip><script data-bslib-card-init="">bslib.Card.initializeAllCards();</script></div>
+</div>
+</div><div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-rows: minmax(3em, max-content); grid-auto-columns: minmax(0, 1fr);">
+<div class="html-fill-item html-fill-container bslib-grid" style="display: grid; grid-template-columns: minmax(3em, 1fr);
+grid-auto-rows: minmax(0, 1fr);">
+<div class="card html-fill-item html-fill-container bslib-card" data-fill="false" data-bslib-card-init="" data-require-bs-caller="card()" data-full-screen="false">
+<div class="card-body html-fill-item html-fill-container">
+<strong>Interpretation</strong>
+<em>Aperture</em>
 </div>
 <bslib-tooltip placement="auto" bsoptions="[]" data-require-bs-version="5" data-require-bs-caller="tooltip()">
     <template>Expand</template>
