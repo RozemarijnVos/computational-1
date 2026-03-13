@@ -23,7 +23,7 @@ work in progress
 
 **Novelty curve Meet me in the hallway**
 
-![](Novelty curve MMITHW.png)
+![](Novelty%20curve%20MMITHW.png)
 
 ## Column
 
@@ -33,7 +33,7 @@ work in progress
 
 work in progress
 
-# Chroma Features 
+# Chroma Features
 
 ## Column
 
@@ -55,19 +55,19 @@ work in progress
 
 **Interpretation**
 
-### Row 
+### Row
 
 *Golden*
 
 In this chromagram of Golden, you can clearly see two patterns alternating. The song begins with a C major (C-E-G) chord, starting at t=0 until t=5. Then, you see the D-F#-A notes light up, which could indicate a D major chord (D-F#-A). This pattern alternates throughout the entire song.
 
-### Row 
+### Row
 
 *Meet me in the hallway*
 
 In the chromagram of Meet me in the hallway you can see the notes A-C#-E light up which could mean the song is in Amajor.
 
-# Cepstrogram 
+# Cepstrogram
 
 ## Column
 
@@ -77,7 +77,7 @@ In the chromagram of Meet me in the hallway you can see the notes A-C#-E light u
 
 **Cepstrogram Aperture**
 
-![](images/Cepstrogram Aperture.png)
+![](Cepstrogram_Aperture.png)
 
 ## Column
 
@@ -99,7 +99,7 @@ In the cepstrogram of Aperture , you can see that the greatest change in color i
 
 **Self-Similarity Matrix Aperture**
 
-![](images/SSM Aperture-01.png)
+![](SSM_Aperture.png)
 
 ## Column
 
@@ -121,7 +121,7 @@ This SSM shows that the beginning and end of the song have a very different timb
 
 **Tempogram Aperture**
 
-![](Tempogram Aperture.png)
+![](Tempogram%20Aperture.png)
 
 ## Column
 
@@ -130,6 +130,8 @@ This SSM shows that the beginning and end of the song have a very different timb
 **Interpretation**
 
 *Aperture*
+
+In this tempogram of Aperture
 
 # Beat Analysis
 
@@ -141,7 +143,7 @@ This SSM shows that the beginning and end of the song have a very different timb
 
 **Beats in Aperture**
 
-![](Novelty Aperture.png)
+![](Novelty%20Aperture.png)
 
 ## Column
 
